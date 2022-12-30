@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+
+body {
+  position: relative;
+  background-color: rgb(104, 104, 104);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1903' height='969' preserveAspectRatio='none' viewBox='0 0 1903 969'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1042%26quot%3b)' fill='none'%3e%3crect width='1903' height='969' x='0' y='0' fill='rgba(95%2c 210%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c473.459C96.412%2c463.294%2c194.193%2c479.221%2c283.024%2c440.393C381.73%2c397.248%2c479.57%2c337.254%2c529.721%2c241.916C580.898%2c144.626%2c569.137%2c29.179%2c556.794%2c-80.055C544.125%2c-192.171%2c528.68%2c-308.887%2c457.583%2c-396.498C385.49%2c-485.336%2c275.152%2c-530.996%2c165.197%2c-562.611C55.709%2c-594.092%2c-67.312%2c-627.421%2c-169.352%2c-576.761C-269.101%2c-527.239%2c-277.888%2c-388.115%2c-352.608%2c-305.536C-429.833%2c-220.188%2c-597.348%2c-202.15%2c-611.651%2c-87.942C-626.033%2c26.896%2c-465.116%2c85.214%2c-414.584%2c189.334C-365.89%2c289.666%2c-416.16%2c441.366%2c-324.166%2c504.412C-232.777%2c567.043%2c-110.18%2c485.076%2c0%2c473.459' fill='%2319beff'%3e%3c/path%3e%3cpath d='M1903 1554.897C2013.995 1568.297 2131.587 1529.6399999999999 2216.753 1457.209 2298.078 1388.046 2318.732 1275.391 2351.226 1173.698 2380.118 1083.278 2420.126 989.847 2395.369 898.208 2371.505 809.873 2271.092 769.939 2221.3940000000002 693.11 2159.99 598.183 2173.692 444.10799999999995 2071.018 396.783 1971.366 350.851 1856.951 429.81600000000003 1759.476 480.203 1675.54 523.591 1608.271 588.973 1552.158 664.994 1499.507 736.3240000000001 1475.101 819.3389999999999 1447.067 903.447 1412.783 1006.306 1330.462 1111.481 1369.641 1212.577 1408.616 1313.1480000000001 1543.656 1328.647 1634.4279999999999 1386.906 1725.131 1445.121 1796 1541.979 1903 1554.897' fill='%23a5e6ff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1042'%3e%3crect width='1903' height='969' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  margin: 0;
+  /* background-attachment: fixed; */
+
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+form {
+  position: fixed;
+  bottom: 50px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+  border: 2px solid rgb(66, 66, 180);
+  color: #000;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.items {
+  position: fixed;
+  top: 50px;
+  right: 30%;
+  left: 30%;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
